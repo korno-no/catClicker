@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cat clicker</title>
+    <link rel="stylesheet" type="text/css" href="style.css"></head>
+<body>
+    <main class="half left">
+        <div id="cat-list"></div>
+        <div id="cat-preview">
+            <img id="cat-img" style="height: 300px; margin-top: 10px;">
+            <div id="cat-counter"></div>
+        </div>
+        <button id="admin-btn">Admin mode</button>
+    </main>
+    <div  class="half right">
+        <form id="admin-panel">
+            <label for="catName">Cat Name</label>
+            <input type="text" name ="catName" id="cat-name-field">
+    
+            <label for="imgUrl">Image Link</label>
+            <input type="text" name ="imgUrl" id="cat-img-field">
+    
+            <label for="clicksAmmount">Clicks Ammount</label>
+            <input type="number" name ="clicksAmmount" id="cat-clicks-field">
+    
+            <div class="btn">
+                <input type="submit" value="Submit" id="submit">
+                <button id="close-admin-btn">Close</button>
+            </div>
+        </form>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
